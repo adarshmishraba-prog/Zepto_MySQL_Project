@@ -27,14 +27,10 @@ It’s ideal for:
 
 The dataset contains product listings scraped from Zepto’s inventory.
 It closely represents real-world catalog data, where the same product may appear multiple times with:
-
-different sizes
-
-packaging variations
-
-discounts
-
-stock availability
+* different sizes
+* packaging variations
+* discounts
+* stock availability
 
 🧾 Columns Included
 * sku_id:	Unique identifier for each product
@@ -51,6 +47,7 @@ stock availability
 🔧 Project Workflow
 
 1️⃣ Database & Table Creation
+
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
